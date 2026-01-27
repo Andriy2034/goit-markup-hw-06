@@ -79,66 +79,68 @@
                     <a href="./index.html" class="link-modal-header">Contacts</a>
                   </li>
                 </ul>
-            <address class="box-contacts">
-              <ul class="contacts-text-modal">
-                <li class="mail-link-modal">
-                  <a href="tel:+110001111111" class="tel-modal"
-                    >+11 (000) 111-11-11</a
+            <div class="box-contacts-modal">
+              <address class="box-contacts">
+                <ul class="contacts-text-modal">
+                  <li class="mail-link-modal">
+                    <a href="tel:+110001111111" class="tel-modal"
+                      >+11 (000) 111-11-11</a
+                    >
+                  </li>
+                  <li class="mail-link-modal">
+                    <a href="mailto:info@devstudio.com" class="mail-modal"
+                      >info@devstudio.com</a
+                    >
+                  </li>
+                </ul>
+              </address>
+              <ul class="box-item-footer">
+                <li class="box-item-circle">
+                  <a
+                    href="https://www.instagram.com/"
+                    class="item-link-footer"
+                    target="_blank"
                   >
+                    <svg class="icon" width="24px" height="24px">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
                 </li>
-                <li class="mail-link-modal">
-                  <a href="mailto:info@devstudio.com" class="mail-modal"
-                    >info@devstudio.com</a
+                <li class="box-item-circle">
+                  <a
+                    href="https://twitter.in.ua/login"
+                    class="item-link-footer"
+                    target="_blank"
                   >
+                    <svg class="icon" width="24px" height="24px">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="box-item-circle">
+                  <a
+                    href="https://www.facebook.com/?locale=uk_UA"
+                    class="item-link-footer"
+                    target="_blank"
+                  >
+                    <svg class="icon" width="24px" height="24px">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="box-item-circle">
+                  <a
+                    href="https://www.linkedin.com/login"
+                    class="item-link-footer"
+                    target="_blank"
+                  >
+                    <svg class="icon" width="24px" height="24px">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
-            </address>
-            <ul class="box-item-footer">
-              <li class="box-item-circle">
-                <a
-                  href="https://www.instagram.com/"
-                  class="item-link-footer"
-                  target="_blank"
-                >
-                  <svg class="icon" width="24px" height="24px">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="box-item-circle">
-                <a
-                  href="https://twitter.in.ua/login"
-                  class="item-link-footer"
-                  target="_blank"
-                >
-                  <svg class="icon" width="24px" height="24px">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="box-item-circle">
-                <a
-                  href="https://www.facebook.com/?locale=uk_UA"
-                  class="item-link-footer"
-                  target="_blank"
-                >
-                  <svg class="icon" width="24px" height="24px">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="box-item-circle">
-                <a
-                  href="https://www.linkedin.com/login"
-                  class="item-link-footer"
-                  target="_blank"
-                >
-                  <svg class="icon" width="24px" height="24px">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
+            </div>
         </div>
       </div>
     </header>
@@ -826,17 +828,20 @@
               required
             />
             <label class="checkbox-label" for="checkbox"
-              ><span>
+              >
+              <span class="checkbox-span">
                 <svg width="10px" height="8px" class="modal-svg-click">
                   <use href="./images/icons.svg#icon-click"></use>
-                </svg> </span
-              >I accept the terms and conditions of the </span>
-              <a
-                href="https://www.privacypolicygenerator.info/"
-                target="_blank"
-                class="checkbox-link"
-                >Privacy Policy</a
-              >
+                </svg></span>
+                <div>
+                  I accept the terms and conditions of the 
+                  <a
+                    href="https://www.privacypolicygenerator.info/"
+                    target="_blank"
+                    class="checkbox-link"
+                    >Privacy Policy</a
+                  >
+                </div>
             </label>
           </div>
           <div class="modal-send-button">
