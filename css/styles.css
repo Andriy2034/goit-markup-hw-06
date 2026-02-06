@@ -1121,7 +1121,7 @@ img {
   }
 
   .images-team {
-    width: calc((100% - 24px) / 2);
+    width: auto;
   }
 
   .advantages-item {
@@ -1198,6 +1198,7 @@ img {
   .modal {
     width: 408px;
     max-height: 584px;
+    padding: 72px 24px 24px 24px;
   }
 
   .checkbox-label span {
