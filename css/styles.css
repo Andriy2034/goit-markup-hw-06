@@ -1003,7 +1003,7 @@ img {
 
 .contacts-text-modal {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 24px;
 }
 
