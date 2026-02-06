@@ -594,10 +594,6 @@ img {
   background-color: #31d0aa;
 }
 
-.footer-subscribe {
-  margin: 0 auto;
-}
-
 .footer-form {
   display: flex;
   flex-wrap: wrap;
@@ -837,7 +833,7 @@ img {
 .checkbox-label {
   font-family: "Roboto", sans-serif;
   color: #8e8f99;
-  line-height: 1.7;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   font-size: 12px;
   display: flex;
@@ -868,7 +864,7 @@ img {
   justify-content: center;
   flex-shrink: 0;
   margin-right: 8px;
-  margin-top: 12px;
+  margin-top: 6px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -973,6 +969,24 @@ img {
 .mob-close-modal:focus {
   background-color: #404bbf;
   fill: #fff;
+}
+
+.item-link-mob {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #4d5ae5;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.item-link-mob:hover,
+.item-link-mob:focus {
+  background-color: #404bbf;
 }
 
 .menu-link-modal {
@@ -1132,11 +1146,13 @@ img {
 
   .footer-container {
     text-align: left;
+    max-width: 584px;
   }
 
   .box-footer {
     gap: 72px 24px;
     align-items: baseline;
+    justify-content: flex-start;
     text-align: left;
   }
 
@@ -1164,7 +1180,6 @@ img {
 
   .footer-subscribe {
     min-width: 453px;
-    flex-basis: 67%;
   }
 
   .footer-email {
@@ -1327,10 +1342,5 @@ img {
 
   .footer-subscribe {
     margin-left: auto;
-    flex-basis: 0;
-  }
-
-  .footer-media {
-    margin-left: 0;
   }
 }
